@@ -1,0 +1,16 @@
+###############################################################################
+## ISCTE-IUL: Trabalho prático de Sistemas Operativos 2022/2023
+##
+## Aluno: Nº: 110976   Nome: Diogo Pedro Cordeiro Pereira
+## Nome do Módulo: cron.def
+## Descrição/Explicação do Módulo:
+##  Programa o crontab deslocar-se para a diretoria correspondente e evocar o refill.sh às 9h17m de cada 5feira
+## 
+## Explicação de quais os comandos a usar para configurar o seu sistema Linux
+## usando este ficheiro:
+##
+##    cd /home/a110976/projecto/parte-1
+##    crontab ./cron.def
+##
+###############################################################################
+17 9 * * 4 cd /home/a110976/projecto/parte-1; ./refill.sh
